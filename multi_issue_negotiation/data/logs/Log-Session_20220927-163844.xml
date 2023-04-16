@@ -1,0 +1,7 @@
+<?xml version="1.0" ?><Session>
+<NegotiationOutcome currentTime="Tue Sep 27 16:38:47 CST 2022" timeOfAgreement="0.583041695830417" lastAction="(Accept  bid:Bid[Laptop: HP, Harddisk: 60 Gb, External Monitor: 19'' LCD])" domain="etc/templates/anac/y2012/Laptop/Laptop-C-domain.xml" bids="11660" runtime="2.676623345" finalOutcome="Bid[Laptop: HP, Harddisk: 60 Gb, External Monitor: 19'' LCD]" startingAgent="PonPokoAgent@12" deadline="10000rounds">
+<resultsOfAgent agent="PonPokoAgent@12" agentDesc="ANAC2017" utilspace="etc/templates/anac/y2012/Laptop/Laptop-C-prof1.xml" agentClass="agents.anac.y2017.ponpokoagent.PonPokoAgent" userUtility="1.0" finalUtility="1.0" discountedUtility="1.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Atlas3@13" agentDesc="ANAC2015" utilspace="etc/templates/anac/y2012/Laptop/Laptop-C-prof2.xml" agentClass="agents.anac.y2015.Atlas3.Atlas3" userUtility="0.8151053951696905" finalUtility="0.8151053951696905" discountedUtility="0.8151053951696905" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome></Session>
