@@ -22,11 +22,16 @@ $ conda activate rlkit
 (rlkit) $ pip install torch==1.4.0
 
 ## Run a demo experiment
-Fine-tune an offline halfcheetah agent
+offline train a negotiation agent
+``` 
+(rlkit) $ cd multi_issue_negotiation 
+(rlkit) $ python algorithm/offline_train.py --buffer_filename <buffer_filename> --save_model_dir <save_model_dir> --domain <domain>
 ```
-(rlkit) $ cd ..
-(rlkit) $ cd rlkit
-(rlkit) $ python examples/ours.py --env_id halfcheetah-medium-v0 --policy_lr 3e-4 --first_epoch_multiplier 5 --init_online_fraction 0.75 --online_buffer_size 250000 --seed 0
+
+Fine-tune an offline agent
+```
+(rlkit) $ cd multi_issue_negotiation
+(rlkit) $ python algorithm/finetune.py --buffer_filename <buffer_filename> --save_model_dir <save_model_dir> --domain <domain>
 ```
 
 
