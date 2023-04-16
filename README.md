@@ -42,6 +42,7 @@ Fine-tune an offline agent
 - This environment is a multi-issue bilateral negotiation environment. Refer to the following `test.py` when using it.
 
 - First create a negotiation object, which represents the negotiation environment:
+
 `negotiation = Negotiation(max_round=30, issue_num=3, render=True)`
 - You can inherit the `Agent` class to define your own agent or directly modify the `Agent` class.
 ```python
