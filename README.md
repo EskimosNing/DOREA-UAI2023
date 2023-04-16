@@ -20,6 +20,7 @@ $ conda activate rlkit
 ```
 (rlkit) $ pip install -U pip
 (rlkit) $ pip install torch==1.4.0
+```
 
 ## Run a demo experiment
 offline train a negotiation agent
@@ -35,9 +36,9 @@ Fine-tune an offline agent
 ```
 
 
-#### Multi issue negotiation environment
+## Multi issue negotiation environment
 
-##### user guide
+user guide
 - This environment is a multi-issue bilateral negotiation environment. Refer to the following `test.py` when using it.
 
 - First create a negotiation object, which represents the negotiation environment:
