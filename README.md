@@ -43,7 +43,7 @@ Fine-tune an offline agent
 
 - First create a negotiation object, which represents the negotiation environment:
 
-`negotiation = Negotiation(max_round=30, issue_num=3, render=True)`
+```negotiation = Negotiation(max_round=30, issue_num=3, render=True)```
 - You can inherit the `Agent` class to define your own agent or directly modify the `Agent` class.
 ```python
     agent1 = randomagent(max_round=30, name="randomagent agent")
